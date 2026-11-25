@@ -43,6 +43,30 @@ def procesar_inventario(matriz_inventario):
     print("-" * 65)
     
 
+ # (3) Funcion donde se encuentran los datos del programa:
+    def main():
+
+        # Crear la matriz de inventario de los 5 artículos:
+            ["ART-01", "Pulidora", 3, 10],
+            ["ART-02", "Taladro", 15, 10],
+            ["ART-03", "Martillo", 5, 12],
+            ["ART-04", "Destornillador", 20, 20],
+            ["ART-05", "Esmeril", 2, 8]
+        ]
+
+    #Verificar salida correcta del programa:
+if __name__ == "__main__":
+    main()
+
+
+# ==========================   
+# Informativo:
+# Variables (matriz_inventario, articulo, codigo, nombre, stock_actual, stock_minimo, cantidad) y Funciones (calcular_cantidad_a_pedir, procesar_inventario) utilizadas en el código.
+#Informativo:
+# Funciones (calcular_cantidad_a_pedir, procesar_inventario, main) utilizadas en el código.
+# Estructuras de control (if, else, for, return, print, range,__name__,__main__) utilizadas en el código.
+# ==========================   
+
 # ==========================    
 # UNAD - Fundamentos de Programación
 # Grupo: 213022B_2204
